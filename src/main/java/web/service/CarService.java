@@ -13,7 +13,7 @@ public class CarService {
     @Autowired
     private CarDAO carDAO;
 
-    public List<Car> getPeoples(int Count){
-        return carDAO.getPeoples(Count);
+    public List<Car> getCars(int Count){
+        return carDAO.getCars(Count);
     }
 }
