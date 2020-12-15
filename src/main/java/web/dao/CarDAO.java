@@ -5,7 +5,6 @@ import web.model.Car;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
 @Component
 public class CarDAO {
     private List<Car> cars;
